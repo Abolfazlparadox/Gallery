@@ -30,3 +30,35 @@
     float: right;
     padding: 10px;
 }
+@media  only screen and (max-width:700px) {
+    .product{
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        transform: none;
+    }
+    .img-container{
+        padding: 0;
+        padding-right: 5px;
+        
+    }
+    .product-small-img img:hover{
+        opacity: 1;
+        height: 115px;
+    }
+}
+@media  only screen and (max-width:340px) {
+    .img-container{
+        padding: 0;
+    }
+    #imageshow{
+        width: 250px;
+        overflow: hidden;
+    }
+}
